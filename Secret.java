@@ -5,7 +5,7 @@ public class Secret {
     private char[] revealedWord;
 
     public Secret() {
-        String[] wordList = { "hangman", "java", "programming", "developer", "openai" };
+        String[] wordList = { "java", "hangman", "developing", "coding", "game" };
         word = wordList[(int) (Math.random() * wordList.length)];
         revealedWord = new char[word.length()];
         Arrays.fill(revealedWord, '_');
